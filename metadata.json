@@ -1,0 +1,7 @@
+{
+  "name": "Vendifree - Premium Multi-Vendor Marketplace",
+  "description": "A modern, professional, and scalable marketplace platform with multi-vendor support, advanced AI search, real Stripe payments, and SEO optimization.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
