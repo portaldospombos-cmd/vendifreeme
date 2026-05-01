@@ -1,0 +1,6 @@
+{
+  "name": "Vendifree",
+  "description": "A curated marketplace for pre-loved treasures, featuring a sophisticated editorial design system.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}

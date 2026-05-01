@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: #d3fffc;
+  --color-surface: #d3fffc;
+  --color-surface-container-low: #bafdf9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #a2f0ed;
+  --color-surface-container-highest: #96ece8;
+  --color-primary: #00675c;
+  --color-primary-container: #73f2dd;
+  --color-on-surface: #003534;
+  --color-on-surface-variant: #296462;
+  --color-secondary-container: #39fbf5;
+  --color-on-secondary-container: #005c5a;
+  --color-tertiary: #006385;
+  --color-tertiary-container: #1bc0fe;
+  --color-on-tertiary: #e7f5ff;
+  --color-error: #b31b25;
+  --color-error-container: #fb5151;
+  --color-outline: #46807e;
+  --color-outline-variant: #7db7b5;
+
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background font-body text-on-surface;
+  }
+}
+
+@layer utilities {
+  .signature-gradient {
+    background: linear-gradient(135deg, #00675c 0%, #73f2dd 100%);
+  }
+  .glass-header {
+    @apply bg-background/80 backdrop-blur-2xl border-b border-outline-variant/10 shadow-sm;
+  }
+  .card-lift {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

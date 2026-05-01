@@ -1,0 +1,21 @@
+{
+  "name": "Vendifree",
+  "short_name": "Vendifree",
+  "description": "A curated marketplace for pre-loved treasures.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#d3fffc",
+  "theme_color": "#00675c",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/vendifree/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/vendifree/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
